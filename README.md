@@ -1,15 +1,12 @@
-# ai_app
+# SoundScribe
 
-A new Flutter project.
+Turning pages with ears.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+SoundScribe: Your gateway to an immersive reading experience. Effortlessly convert eBook text to audio using Firebase AI and Palm API. Uncover tailored book recommendations through Google Books API. Download audio in MP3 format exclusively for offline listening. Enhancing inclusivity, SoundScribe aids visually impaired readers. With Firebase Auth, access is secure. Join us in redefining reading - convenience, customization, and community in one app.
 
 A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
