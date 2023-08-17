@@ -13,7 +13,7 @@ class _BookSearchPageState extends State<BookSearchPage> {
   
 
   Future<void> _searchBooks(String query) async {
-    final apiKey = 'AIzaSyBT7Kutnd82yDxwx5g2cnUbDPK-pOueBAw';
+    final apiKey = 'YOUR_API_KEY';
     final apiUrl =
         'https://www.googleapis.com/books/v1/volumes?q=${Uri.encodeComponent(query)}&key=$apiKey';
 
