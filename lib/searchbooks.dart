@@ -1,5 +1,8 @@
 import 'dart:convert';
+import 'dart:io';
+import 'package:ai_app/zlib.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:http/http.dart' as http;
 
 class BookSearchPage extends StatefulWidget {
@@ -42,6 +45,8 @@ class _BookSearchPageState extends State<BookSearchPage> {
       backgroundColor: Color.fromARGB(255, 228, 250, 241),
       body: Column(
         children: [
+          SizedBox(height: 20,),
+          TextButton(onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>Zli()));}, child: Text('Click to Download eBooks',style: GoogleFonts.montserrat(fontSize: 16,fontWeight: FontWeight.bold,color: Colors.green),)),
           Padding(
             padding: const EdgeInsets.all(16.0),
             child: TextField(

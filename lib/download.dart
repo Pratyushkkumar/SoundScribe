@@ -15,6 +15,7 @@ class Down extends StatelessWidget {
       appBar: AppBar(backgroundColor: Color.fromARGB(217, 47, 171, 134)),
       body: Column(
         children: [
+          SizedBox(height: 20,),
           Container(
             padding: EdgeInsets.only(left: 20, right: 20),
             child: SizedBox(
